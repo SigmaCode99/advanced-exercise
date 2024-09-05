@@ -1,0 +1,85 @@
+/* Basic fallback font */
+
+*{
+    margin:10;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    color: #333;
+}
+
+/* Styling for the headline */
+h1 {
+    font-family: 'Georgia', serif;
+    color: darkblue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for the topical summary */
+.summary {
+    font-style: italic;
+    background-color: greenyellow;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Styling for the list of authors */
+.authors {
+    list-style-type: none;
+    font-weight: bold;
+    width: 40%;
+    /* border: 2px solid red; */
+    /* text-align: center; 
+    das wurde entfernt und width + margin 
+    hinzugefügt, darausfolgt li*/
+    margin: 10px auto;
+}
+
+/* Article content styling */
+.article-content {
+    line-height: 1.6;
+    /* background-color: yellow; */
+}
+
+.article-content p {
+    font-family: 'Times New Roman', serif;
+    margin: 15px 0;
+    /* background-color: yellow; */
+}
+
+/* Highlighted paragraph in article */
+.highlight {
+    color: red;
+}
+
+/* Form styling */
+/* form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    background-color: yellow;
+} */
+
+.form{
+    /* background-color: yellow; */
+    /* display: flex;
+    align-items: center; */
+    text-align: center;
+}
+
+form input[type="text"] {
+    padding: 5px;
+    margin-top: 5px;
+    /* background-color: yellowgreen; */
+}
+
+form button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
